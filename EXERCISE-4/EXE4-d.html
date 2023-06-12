@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <script>       
+    var c=0;   
+       function fun() 
+            {      
+                 if(c==0)      
+            { 
+document.body.style.backgroundColor = "cyan";       
+ document.getElementById("id1").innerHTML="Fill your cone";        
+ document.getElementById("imag").src="https://5.imimg.com/data5/SD/SM/AC/ANDROID-45448310/product-jpeg.jpg";       
+  document.getElementById("link").innerHTML="Fill";       
+c=1;       
+}       
+else       
+{ 
+document.body.style.backgroundColor = "pink";        
+document.getElementById("id1").innerHTML="Eat your cone";      
+  document.getElementById("imag").src="https://media.istockphoto.com/id/471317762/photo/vanilla-ice-cream-cone.jpg?s=612x612&w=0&k=20&c=flLbm_rGYxD66_1O6UHizwLtnes0-gExeeIw-uprMcQ=";        
+  document.getElementById("link").innerHTML="Eat";        
+c=0; 
+} 
+} 
+</script>
+<center>
+<h1 id="id1">Eat your cone</h1>
+<br><br>
+<img src="https://media.istockphoto.com/id/1148364081/photo/front-view-of-real-edible-ice-cream-cone-with-3-different-scoops-of-ice-cream-isolated-on.jpg?s=612x612&w=0&k=20&c=m51YpJ0bZ0aBecUrB413RWMDqEC1mjxnXPO7K6t4CfE=" alt="Reload"height="300px" width="200px" id="imag">
+<br>
+<a href="javascript:fun()" id="link">Eat</a>
+</center>
+</body>
+</html>
